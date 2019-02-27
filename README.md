@@ -1,3 +1,3 @@
 # tempotatoes Members:
-Gerrad Hardy
-Leandro Castro
+- Gerrad Hardy
+- Leandro Castro
