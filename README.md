@@ -1,5 +1,5 @@
 # tempotatoes Members:
-- Gerrad Hardy
+- Gerrad Hardy 3 time committer 
 - Leandro Castro
 - Dakota Rennemann
 - Sean Biava
