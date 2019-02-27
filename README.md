@@ -1,2 +1,2 @@
-# tempotatoes
-# Gerrad Hardy
+# tempotatoes Members:
+Gerrad Hardy
