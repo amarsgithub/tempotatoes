@@ -2,9 +2,9 @@ import React from 'react';
 import ProfileCard from './ProfileCard.js';
 
 // This component creates a list of the ProfileCard's using information from userAccounts
-const CardList = ({userAccounts}) => {
+const CardBox = ({userAccounts}) => {
     return (
-        <div>
+        <div className='cardList'>
             {
                 userAccounts.map((user, i) => {
                     return (
@@ -22,4 +22,4 @@ const CardList = ({userAccounts}) => {
     );
 }
 
-export default CardList;
+export default CardBox;

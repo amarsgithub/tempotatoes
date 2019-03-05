@@ -2,9 +2,11 @@ import React from 'react';
 import Tabs from './Tabs.js';
 
 // this component displays multiple tabs together
-const HeaderBar = ({pageTabs}) => {
+const HeaderBox = ({pageTabs}) => {
     return (
+
         <div>
+            <img alt='Logo' src='https://mse.ufl.edu/wp-content/uploads/geufl2.jpg' width='400' height='200'/>
             {
                 pageTabs.map((user, i) => {
                     return (
@@ -22,4 +24,4 @@ const HeaderBar = ({pageTabs}) => {
     );
 }
 
-export default HeaderBar;
+export default HeaderBox;

@@ -1,0 +1,3 @@
+.rowC{display:flex; flex-direction:row;}
+.newsBox{display:flex; flex-direction: column; justify-content: flex-end; background: red; width: 15%; margin-left: 15px;}
+.cardList{display:flex; flex-direction: row; justify-content: flex-start; flex-wrap: wrap; width: 85%; min-height: 600px;}
