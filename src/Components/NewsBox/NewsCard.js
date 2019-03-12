@@ -1,16 +1,24 @@
 import React from 'react';
 
 // this is a single news card for the news box
-const NewsCard = ({ title, thumbnail, body }) => {
+const NewsCard = ({title, thumbnail, body}) => {
     return (
-        <div className='bg-green dib br3 pa3 ma2 grow bw2 shadow-5'>
-            <img alt='Headshots' src={thumbnail} width='100' height='100'/>
-            <div>
-                <h2>{title}</h2>
-                <p>{body}</p>
-            </div>
+
+
+    <article className="bg-green center mw5 ba b--black-10 mv4">
+        < div className="pv2 ph3">
+            < h1 className="f6 ttu tracked"> {title} </h1>
         </div>
-    );
+        <img src={thumbnail} className="w-100 db" alt="thumbnail picture"/>
+        <div className="pa3">
+            <a href="#" className="link dim lh-title"> {body} </a>
+            <small className="gray db pv2">
+                <time>yesterday</time>
+            </small>
+        </div>
+    </article>
+)
+    ;
 }
 
 export default NewsCard;
