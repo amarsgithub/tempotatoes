@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import CardBox from '../CardBox/CardBox.js';
-import HeaderBox from '../HeaderBox/HeaderBox.js';
-import SearchBox from '../SearchBox/SearchBox.js';
-import NewsBox from '../NewsBox/NewsBox';
-import {userAccounts} from '../../BackendTempData/userAccounts';
-import {pageTabs} from '../../BackendTempData/pageTabs';
-import {newsStories} from "../../BackendTempData/newsStoreis";
-import './App.css';
+import CardBox from './views/CardBox/CardBox.js';
+import HeaderBox from './views/HeaderBox/HeaderBox.js';
+import SearchBox from './views/SearchBox/SearchBox.js';
+import NewsBox from './views/NewsBox/NewsBox';
+import {userAccounts} from '../BackendTempData/userAccounts';
+import {pageTabs} from '../BackendTempData/pageTabs';
+import {newsStories} from "../BackendTempData/newsStoreis";
+import '../stylesheets/App.css';
 
 
 //App for homepage
