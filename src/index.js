@@ -4,12 +4,11 @@ import './stylesheets/index.css';
 import './stylesheets/App.css';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
-import routes from './routes';
-import { Router, BrowserRouter } from 'react-router-dom';
+import App from './App';
 
 ReactDOM.render(
-    < Router history={BrowserRouter} routes={routes} />,
-    document.querySelector('#app')
+    < App />,
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

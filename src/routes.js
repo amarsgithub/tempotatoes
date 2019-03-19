@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import App from './components/App';
-import Home from './components/views/Home';
-import Test from './components/views/Test';
+import App from './App';
+import Home from './views/Home';
+import Test from './views/Test';
 
 export default (
     <Route exact path='/' component={App}>
