@@ -3,6 +3,7 @@ import Home from './views/Home';
 import Test from './views/Test';
 import {BrowserRouter, Route} from 'react-router-dom';
 
+// This app acts as the highest level and displays the different views
 class App extends Component {
     render() {
         return (
