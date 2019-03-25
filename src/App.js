@@ -14,6 +14,11 @@ class App extends Component {
                             <Home />
                         </div>
                     )}/>
+                    <Route exact={true} path='/home' render={ () => (
+                        <div className = "App">
+                            <Home />
+                        </div>
+                    )}/>
                     <Route exact={true} path='/test' render = { () => (
                         <div className="App">
                             <Test />
