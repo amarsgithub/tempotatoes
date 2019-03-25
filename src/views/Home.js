@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
-import CardBox from './views/CardBox/CardBox.js';
-import HeaderBox from './views/HeaderBox/HeaderBox.js';
-import SearchBox from './views/SearchBox/SearchBox.js';
-import NewsBox from './views/NewsBox/NewsBox';
+import CardBox from '../components/CardBox/CardBox.js';
+import HeaderBox from '../components/HeaderBox/HeaderBox.js';
+import SearchBox from '../components/SearchBox/SearchBox.js';
+import NewsBox from '../components/NewsBox/NewsBox';
 import {userAccounts} from '../BackendTempData/userAccounts';
 import {pageTabs} from '../BackendTempData/pageTabs';
 import {newsStories} from "../BackendTempData/newsStoreis";
 import '../stylesheets/App.css';
 
-
 //App for homepage
-class App extends Component {
+class Home extends Component {
+
     constructor() {
         super();
         this.state = {
@@ -50,4 +50,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Home;

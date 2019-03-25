@@ -1,13 +1,13 @@
 export const pageTabs = [
     {
         id: 1,
-        tabName: 'Tab 1',
-        link: ''
+        tabName: 'Home',
+        link: 'Home'
     },
     {
         id: 2,
-        tabName: 'Tab 2',
-        link: ''
+        tabName: 'Test',
+        link: 'Test'
     },
     {
         id: 3,
