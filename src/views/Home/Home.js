@@ -23,7 +23,7 @@ class Home extends Component {
     }
 
 
-    render() {
+    render( ) {
         // filters the ProfileCards shown by what the user inputs into the searchfield
         const filteredUsers = this.state.userAccounts.filter(userAccounts => {
             return userAccounts.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
@@ -35,7 +35,7 @@ class Home extends Component {
                 <SearchBox searchChange={this.onSearchChange}/>
 
                 <div className='cardNews'>
-                    <CardBox userAccounts={filteredUsers}/>
+                    <CardBox userAccounts={filteredUsers} />
                     <NewsBox newsStories={newsStories}/>
                 </div>
 
