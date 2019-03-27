@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
-import CardBox from '../components/CardBox/CardBox.js';
-import HeaderBox from '../components/HeaderBox/HeaderBox.js';
-import SearchBox from '../components/SearchBox/SearchBox.js';
-import NewsBox from '../components/NewsBox/NewsBox';
-import {userAccounts} from '../BackendTempData/userAccounts';
-import {pageTabs} from '../BackendTempData/pageTabs';
-import {newsStories} from "../BackendTempData/newsStoreis";
-import '../stylesheets/App.css';
+import CardBox from '../../components/CardBox/CardBox.js';
+import SearchBox from '../../components/SearchBox/SearchBox.js';
+import NewsBox from '../../components/NewsBox/NewsBox';
+import {userAccounts} from '../../BackendTempData/userAccounts';
+import {newsStories} from "../../BackendTempData/newsStoreis";
+import '../../stylesheets/App.css';
 
 //App for homepage
 class Home extends Component {
@@ -34,8 +32,6 @@ class Home extends Component {
         //displays the header, searchbar, and cardlist
         return (
             <div>
-                <HeaderBox pageTabs={pageTabs}/>
-                <hr></hr>
                 <SearchBox searchChange={this.onSearchChange}/>
 
                 <div className='cardNews'>

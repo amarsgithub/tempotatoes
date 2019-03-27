@@ -1,20 +1,25 @@
 import React from 'react';
 import ProfileCard from './ProfileCard.js';
+import {Link} from "react-router-dom";
 
 // This component creates a list of the ProfileCard's using information from userAccounts
 const CardBox = ({userAccounts}) => {
+    //console.log(match.url);
     return (
         <div className='cardList'>
             {
                 userAccounts.map((user, i) => {
                     return (
-                        <ProfileCard
-                            key={userAccounts[i].id}
-                            id={userAccounts[i].id}
-                            name={userAccounts[i].name}
-                            email={userAccounts[i].email}
-                            picture={userAccounts[i].picture}
-                        />
+                        //<Link to={`${match.url}/Home`}>
+                       <Link to="/Home">
+                           <ProfileCard
+                               key={userAccounts[i].id}
+                               id={userAccounts[i].id}
+                               name={userAccounts[i].name}
+                               email={userAccounts[i].email}
+                               picture={userAccounts[i].picture}
+                           />
+                       </Link>
                     );
                 })
             }
