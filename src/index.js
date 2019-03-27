@@ -4,10 +4,16 @@ import './stylesheets/index.css';
 import './stylesheets/App.css';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
-import App from './App';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Routes } from './routes';
+
+
+
 
 ReactDOM.render(
-    < App />,
+    <Router>
+        <Routes />
+    </Router>,
     document.getElementById('root')
 );
 
