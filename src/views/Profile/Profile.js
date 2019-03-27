@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
+import {userAccounts} from '../../BackendTempData/userAccounts';
 
-class Profile extends Component {
-    render(){
+const Profile = ( ) => {
+
         return(
             <div>
-                Profile Page
+                Profile Page:
+
             </div>
         )
 
-    }
+
 }
 
 export default Profile;

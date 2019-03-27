@@ -1,7 +1,7 @@
 export const userAccounts = [
     {
         id: 1,
-        name: 'Amar Suchak',
+        name: 'SuchakAmar',
         FirstName: 'Amar',
         LateName: 'Suchak',
         username: 'tempotato 1',
@@ -10,7 +10,7 @@ export const userAccounts = [
     },
     {
         id:2,
-        name: 'Leandro Castro',
+        name: 'CastroLeandro',
         FirstName: 'Leandro',
         LateName: 'Castro',
         username: 'tempotato 2',
@@ -19,7 +19,7 @@ export const userAccounts = [
     },
     {
         id:3,
-        name: 'Sean Biava',
+        name: 'BiavaSean',
         FirstName: 'Sean',
         LateName: 'Biava',
         username: 'tempotato 3',
@@ -28,7 +28,7 @@ export const userAccounts = [
     },
     {
         id:4,
-        name: 'Gerrad Hardy',
+        name: 'HardyGerrad',
         FirstName: 'Gerrad',
         LateName: 'Hardy',
         username: 'tempotato 4',
@@ -37,7 +37,7 @@ export const userAccounts = [
     },
     {
         id:5,
-        name: 'Dakota Rennemann',
+        name: 'RennemannDakota',
         FirstName: 'Dakota',
         LateName: 'Rennemann',
         username: 'tempotato 5',
@@ -46,7 +46,7 @@ export const userAccounts = [
     },
     {
         id:6,
-        name: 'Pablo Garces',
+        name: 'GarcesPablo',
         FirstName: 'Pablo',
         LateName: 'Garces',
         username: 'tempotato 6',
