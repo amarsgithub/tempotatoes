@@ -3,8 +3,6 @@
 
 Name parent folder "PeerAdvisingSite".
 
-Move "src" and "public" folders inside the "client" folder.
-
 ### `Then`
 
 Open git bash on the parent folder and do the following commands:
