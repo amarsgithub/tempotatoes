@@ -2,3 +2,4 @@
 .newsBox{display:flex; flex-direction: column; justify-content: flex-end; background: darkorange; width: 15%; margin-left: 15px; text-align: center;}
 .cardList{display:flex; flex-direction: row; justify-content: flex-start; flex-wrap: wrap; width: 85%; min-height: 600px; max-height: 700px}
 .cardNews{display:flex; flex-direction: row;}
+.calendarStyles{display:flex; text-align: center; width: 1800px; height: 1800px;}
