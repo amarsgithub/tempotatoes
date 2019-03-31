@@ -15,6 +15,9 @@ const HeaderBox = ( ) => {
                     <div className='bg-orange dib br3 pa3 ma2 grow bw2 shadow-5'>
                         <Link to="/Test">Test</Link>
                     </div>
+                    <div className='bg-orange dib br3 pa3 ma2 grow bw2 shadow-5'>
+                        <Link to="/Events">Events</Link>
+                    </div>
                 </div>
             }
         </div>
