@@ -2,4 +2,20 @@
 .newsBox{display:flex; flex-direction: column; justify-content: flex-end; background: darkorange; width: 15%; margin-left: 15px; text-align: center;}
 .cardList{display:flex; flex-direction: row; justify-content: flex-start; flex-wrap: wrap; width: 85%; min-height: 600px; max-height: 700px}
 .cardNews{display:flex; flex-direction: row;}
-.calendarStyles{display:flex; text-align: center; width: 1800px; height: 1800px;}
+.calendarStyles{display:inline-block; text-align: center; width: 1800px; height: 1800px;}
+iframe {
+    
+    margin-left: 20%;
+    width: 60%;
+    height: 600px;
+    border-block-end-style: ridge;  
+    border-block-start-style: ridge;
+    border-block-start-color: aqua;
+    border-block-end-color: aqua;
+    border-block-end-width: 5px;
+}
+.headerBar{
+    display:inline-block;
+    margin-left:10%;
+    background-color: aqua;
+}
