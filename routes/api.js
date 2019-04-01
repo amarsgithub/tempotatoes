@@ -10,6 +10,14 @@ router.get('/users', (req, res, next) => {
     .catch(next)
 });
 
+router.get('/users/:id', (req, res, next) => {
+
+    //this will return all the data, exposing only the id and action field to the client
+    User.findById({"_id": req.params.id})
+    .then(data => res.json(data))
+    .catch(next)
+});
+
 router.post('/users', (req, res, next) => {
     if(req.body.action){
         User.create(req.body)
