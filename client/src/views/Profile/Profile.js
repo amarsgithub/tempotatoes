@@ -1,19 +1,3 @@
-/*import React from 'react';
-
-const Profile = ( ) => {
-
-        return(
-            <div>
-                Profile Page:
-
-            </div>
-        )
-
-
-}
-
-export default Profile;*/
-
 import React, {Component} from 'react';
 import axios from 'axios';
 import '../../App.css';
@@ -31,12 +15,13 @@ class Profile extends Component {
 
     componentDidMount(){
         this.getUser();
+
     }
 
     getUser = () => {
-        
         //axios.get('/api/users/5c9d95a50436b6379cc43176')//works for the specified id
-        axios.get(`/api/users/${this.props.match.params}`)
+
+        axios.get(`/api/users/${this.props.match.params.profileId}`)
         .then(res => {
             if(res.data){
             this.setState({
