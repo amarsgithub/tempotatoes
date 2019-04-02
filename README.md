@@ -1,9 +1,5 @@
 # tempotatoes
-## First do this
-
-Name parent folder "PeerAdvisingSite".
-
-### `Then`
+## Do this
 
 Open git bash on the parent folder and do the following commands:
 
