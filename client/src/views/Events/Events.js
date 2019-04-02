@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import Calendar from '../../components/Calendar/Calendar.js';
 
 class Events extends Component {
     render() {
         return (
-            <div className=".calendarStyle">
-            <iframe src="https://calendar.google.com/calendar/embed?src=seanbiava%40gmail.com&ctz=America%2FNew_York"></iframe>
-        </div>
+            <div>
+                <Calendar />
+            </div>
         )
     }
 }

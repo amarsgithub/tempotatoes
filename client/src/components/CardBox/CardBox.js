@@ -15,6 +15,7 @@ const CardBox = ({userAccounts}) => {
                                key={userAccounts[i].id}
                                id={userAccounts[i].id}
                                name={userAccounts[i].fullName}
+                               country={userAccounts[i].country}
                                email={userAccounts[i].email}
                                picture={userAccounts[i].picture}
                            />
