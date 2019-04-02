@@ -5,12 +5,13 @@ import {Link} from "react-router-dom";
 
 // This component creates a list of the ProfileCard's using information from userAccounts
 const CardBox = ({userAccounts}) => {
+    console.log(userAccounts[1]);
     return (
         <div className='cardList'>
             {
                 userAccounts.map((user, i) => {
                     return (
-                       <Link to={`Home/${userAccounts[i].firstName}${userAccounts[i].lastName}`}>
+                       <Link to={`Home/${userAccounts[i]._id}`}>
                            <ProfileCard
                                key={userAccounts[i].id}
                                id={userAccounts[i].id}
