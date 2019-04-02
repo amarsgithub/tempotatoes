@@ -58,7 +58,6 @@ class Home extends Component {
 
                 <div className='cardNews'>
                     <CardBox userAccounts={filteredUsers} />
-                    <NewsBox newsStories={newsStories}/>
                 </div>
 
 
