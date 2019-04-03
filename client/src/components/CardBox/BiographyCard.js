@@ -1,11 +1,12 @@
 import React from 'react';
 
 // This component acts as the base Profile card that users will see on the profile page
-const BiographyCard = ({id, question1, question2, question3, question4, question5 }) => {
+const BiographyCard = ({id, picture, question1, question2, question3, question4, question5 }) => {
   return (
     <div className='flex-none bg-blue dib br3 pa3 ma2 grow bw2 shadow-5'>
         <div>
             <h2>Member Biography</h2>
+            <img alt='Headshots' src={picture} width='300' height='300'/>
             <p>{id}</p>
             <p>{question1}</p>
             <p>{question2}</p>

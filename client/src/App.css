@@ -5,6 +5,13 @@
     background-color: aqua;
 }
 
+
+/* Search Bar Styling */
+.centered{
+    display: inline-block;
+    left: 20%;
+}
+
 /* NewsBox Styling  */
 .rowC{
     display:flex; 

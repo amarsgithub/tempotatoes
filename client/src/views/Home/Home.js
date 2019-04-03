@@ -53,10 +53,13 @@ class Home extends Component {
 
         //displays the header, searchbar, and cardlist
         return (
-            <div>
-                <SearchBox searchChange={this.onSearchChange}/>
+            <div className=".centered" style = {{'margin-left':'18%'}}>
+                <div>
+                    <h1>Search SAPA Profiles</h1>
+                </div>
+                <SearchBox  searchChange={this.onSearchChange}/>
 
-                <div className='cardNews'>
+                <div className='.cardNews' >
                     <CardBox userAccounts={filteredUsers} />
                 </div>
 
