@@ -8,15 +8,12 @@ const ProfileCard = ({name, country, email, picture}) => {
             <img alt='Headshots' src={picture} width='300' height='300'/>
             <div>
                 <div className='d-inline bg-success'>
-                    <h2 className='d-inline'>{name}</h2><p>({email})</p>
+                    <h2 className='d-inline' style={{'float-left':'40%'}}>{name}</h2><p style={{'float-left':'40%'}}>({email})</p>
                     
                 </div>
                 <div className='d-inline bg-success'>
                     <h3>Studied abroad</h3>
-                    <h4 className=".profileCountry">{country[0]}</h4>
-                    <h4 className=".profileCountry">{country[1]}</h4>
-                    <h4 className=".profileCountry">{country[2]}</h4>
-                    <h4 className=".profileCountry">{country[3]}</h4>
+                    <h4 className=".profileCountry">{country[0]}    {country[1]}     {country[3]}</h4>
                 </div>
             </div>
         </div>
