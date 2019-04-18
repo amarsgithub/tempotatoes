@@ -4,12 +4,13 @@
   "private": true,
   "description": "Open git bash on the parent folder and do the following commands:",
   "scripts": {
+    "client-install": "npm install --prefix client",
     "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\"",
-    "build": "concurrently \"react-scripts build\" \"cd client && react-scripts build\"",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start-watch": "nodemon index.js",
-    "dev": "concurrently \"npm run start-watch\" \"react-scripts start\""
+    "dev":  "concurrently \"cd backend && node server.js\" \"cd client && npm start\""
   },
   "keywords": [],
   "author": "Tempotatoes",
