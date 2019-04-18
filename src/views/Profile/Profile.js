@@ -20,7 +20,8 @@ class Profile extends Component {
 
     getUser = () => {
         //axios.get('/api/users/5c9d95a50436b6379cc43176')//works for the specified id
-
+        
+        //makes sure that the profile id is linked to the appropriate profile 
         axios.get(`/api/users/${this.props.match.params.profileId}`)
         .then(res => {
             if(res.data){
@@ -39,6 +40,7 @@ class Profile extends Component {
                     <BiographyCard 
                                key={this.state.user.key}
                                id={this.state.user.id}
+                               points = {this.state.user.points}
                                question1={this.state.user.question1}
                                question2={this.state.user.question2}
                                question3={this.state.user.question3}

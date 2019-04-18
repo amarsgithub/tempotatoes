@@ -19,6 +19,7 @@ const CardBox = ({userAccounts}) => {
                                country={userAccounts[i].country}
                                email={userAccounts[i].email}
                                picture={userAccounts[i].picture}
+                               
                            />
                        </Link>
                     );

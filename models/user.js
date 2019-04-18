@@ -24,7 +24,8 @@ const UserSchema = new Schema({
     question2: String,
     question3: String,
     question4: String,
-    question5: String
+    question5: String,
+    points: Number
     }
 });
 
