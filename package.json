@@ -6,11 +6,7 @@
   "scripts": {
     "client-install": "npm install --prefix client",
     "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\"",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start-watch": "nodemon index.js",
-    "dev":  "concurrently \"cd backend && node server.js\" \"cd client && npm start\""
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "Tempotatoes",
