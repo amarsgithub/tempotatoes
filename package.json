@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "Open git bash on the parent folder and do the following commands:",
-  "main": "Backend/server.js",
   "scripts": {
     "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\"",
-    "build": "react-scripts build",
+    "build": "concurrently \"react-scripts build\" \"cd client && react-scripts build\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start-watch": "nodemon index.js",
