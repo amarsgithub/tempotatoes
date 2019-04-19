@@ -12,7 +12,9 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
-    "tachyons": "^4.11.1"
+    "tachyons": "^4.11.1",
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.10"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,8 +26,6 @@
   "author": "Tempotatoes",
   "license": "MIT",
   "devDependencies": {
-    "concurrently": "^4.1.0",
-    "nodemon": "^1.18.10"
   },
   "proxy": "http://localhost:5000"
 }

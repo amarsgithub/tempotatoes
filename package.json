@@ -23,12 +23,11 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
-    "tachyons": "^4.11.1"
-  },
-  "devDependencies": {
+    "tachyons": "^4.11.1",
     "concurrently": "^4.1.0",
     "nodemon": "^1.18.10"
   },
+  "devDependencies": {},
   "eslintConfig": {
     "extends": "react-app"
   },
