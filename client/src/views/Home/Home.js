@@ -43,10 +43,6 @@ class Home extends Component {
 
     render( ) {
         // filters the ProfileCards shown by what the user inputs into the searchfield
-        /*const filteredUsers = this.state.userAccounts.filter(userAccounts => {
-            return userAccounts.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
-        })*/
-
         const filteredUsers = this.state.users.filter(users => {
             return users.fullName.toLowerCase().includes(this.state.searchfield.toLowerCase());
         })
