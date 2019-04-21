@@ -11,11 +11,11 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
-    "start": "react-scripts start -a localhost -p $PORT",
+    "start": "PORT=$PORT react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:5001",
+  "proxy": "http://localhost:5000",
   "author": "tempotatoes"
 }
