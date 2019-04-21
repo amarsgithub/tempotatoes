@@ -11,10 +11,9 @@ const CardBox = ({userAccounts}) => {
             {
                 userAccounts.map((user, i) => {
                     return (
-                       <Link to={`Home/${userAccounts[i]._id}`}>
+                       <Link to={`Home/${userAccounts[i]._id}`} key={userAccounts[i]._id}>
                            <ProfileCard
-                               key={userAccounts[i].id}
-                               id={userAccounts[i].id}
+                               id={userAccounts[i]._id}
                                name={userAccounts[i].fullName}
                                country={userAccounts[i].country}
                                email={userAccounts[i].email}
