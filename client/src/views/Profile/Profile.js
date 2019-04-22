@@ -9,7 +9,9 @@ class Profile extends Component {
     constructor() {
         super();
         this.state = {
-            user: {}
+            user: {
+                photo: ''
+            }
         }
     }
 
@@ -24,6 +26,7 @@ class Profile extends Component {
         axios.get(`/api/users/${this.props.match.params.profileId}`)
         .then(res => {
             if(res.data){
+            console.log(res.data.picture)
             this.setState({
                 user: res.data
             })
@@ -33,10 +36,11 @@ class Profile extends Component {
     }
 
     render( ) {
-        
+        console.log(this.state.user.picture)
         return (
             <div className='profile'>
                     <BiographyCard 
+                               photo = {this.state.user.picture}
                                key={this.state.user.key}
                                id={this.state.user.id}
                                points = {this.state.user.points}

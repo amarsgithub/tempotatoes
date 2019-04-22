@@ -9,7 +9,6 @@ const ProfileCard = ({name, country, email, picture}) => {
             <div>
                 <div className='d-inline bg-success'>
                     <h2 className='d-inline'>{name}</h2><p>({email})</p>
-                    
                 </div>
                 <div className='d-inline bg-success'>
                     <h3>Studied abroad</h3>
