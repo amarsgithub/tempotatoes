@@ -39,6 +39,7 @@ class Profile extends Component {
                     <BiographyCard 
                                key={this.state.user.key}
                                id={this.state.user.id}
+                               points = {this.state.user.points}
                                question1={this.state.user.question1}
                                question2={this.state.user.question2}
                                question3={this.state.user.question3}
