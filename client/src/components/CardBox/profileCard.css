@@ -1,6 +1,7 @@
 /* SAPA Card Styling */
-.profileCard{
-    background: #000;
+.boxStyle{
+    background: #4C89B6;
+    text-color: #231F20;
 }
 h3{
     margin: 0;

@@ -1,22 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Header.css';
+import logo from './SapaLogo.png'
 
 // this component displays multiple tabs together
 const HeaderBox = ( ) => {
     return (
-        <div>
+        <div className="headerBackground">
             {
-                <div className=".headerBar">
-                    <img alt='Logo' src='https://mse.ufl.edu/wp-content/uploads/geufl2.jpg' width='200' height='100'/>
+                <div className = 'headerBar'>
+                    <img  className = 'headerLogo' alt='Logo' src={logo} width='200' height='100'/>
 
-                    <div className='bg-orange dib br3 pa3 ma2 grow bw2 shadow-5'>
-                        <Link to="/Home">Home</Link>
+                    <div className='bg-orange dib br3 pa3 ma2 grow bw2 shadow-5 headerItem'>
+                        <Link className = 'headerLink' to="/Home">Home</Link>
                     </div>
-                    <div className='bg-orange dib br3 pa3 ma2 grow bw2 shadow-5'>
-                        <Link to="/Test">Test</Link>
+                    <div className='bg-orange dib br3 pa3 ma2 grow bw2 shadow-5 headerItem'>
+                        <Link className = 'headerLink' to="/Test">Test</Link>
                     </div>
-                    <div className='bg-orange dib br3 pa3 ma2 grow bw2 shadow-5'>
-                        <Link to="/Events">Events</Link>
+                    <div className='bg-orange dib br3 pa3 ma2 grow bw2 shadow-5 headerItem'>
+                        <Link className = 'headerLink' to="/Events">Events</Link>
                     </div>
                 </div>
             }

@@ -6,6 +6,7 @@ import NewsBox from '../../components/NewsBox/NewsBox';
 import {userAccounts} from '../../BackendTempData/userAccounts';
 import {newsStories} from "../../BackendTempData/newsStoreis";
 import '../../App.css';
+import './Home.css';
 
 //App for homepage
 class Home extends Component {
@@ -49,7 +50,7 @@ class Home extends Component {
 
         //displays the header, searchbar, and cardlist
         return (
-            <div>
+            <div className= 'homeBody'>
                 <SearchBox searchChange={this.onSearchChange}/>
 
                 <div className='cardNews'>

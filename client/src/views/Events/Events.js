@@ -7,7 +7,9 @@ class Events extends Component {
     render() {
         return (
             <div>
-                <Calendar />
+                <div>
+                    <Calendar />
+                </div>
             </div>
         )
     }

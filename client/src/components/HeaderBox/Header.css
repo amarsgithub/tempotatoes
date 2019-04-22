@@ -1,0 +1,28 @@
+.headerLogo{
+    margin-left:2%;   
+}
+.headerBar {
+     display: inline-block;
+     width: 100%;
+}
+.headerItem {
+    background-color: #F7A16C;
+    margin-left: 3%;
+    width: 120px;
+    bottom: 3%;
+    text-emphasis: bold;
+    text-emphasis-color: blue;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+.headerLink{
+    text-emphasis: bold;
+    text-align: center;
+    text-emphasis-color: blue;
+}
+.headerBackground{
+    width: 100%;
+    background-color:#F7A16C; 
+}
