@@ -5,7 +5,7 @@
   "description": "Open git bash on the parent folder and do the following commands:",
   "scripts": {
     "client-install": "npm install --prefix client",
-    "start": "concurrently \"cd backend && nodemon server.js\" \"cd client && npm start\"",
+    "start": "concurrently \"cd client && npm start\" \"cd backend && nodemon server.js\"",
     "dev": "concurrently \"cd backend && node server.js\" \"cd client && npm start\"",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
