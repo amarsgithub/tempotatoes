@@ -6,11 +6,11 @@
 }
 
 /* NewsBox Styling  */
-.rowC{
+/* .rowC{
     display:flex; 
     flex-direction:row;
-}
-.newsBox{
+} */
+/* .newsBox{
     display:flex; 
     flex-direction: column; 
     justify-content: flex-end; 
@@ -18,22 +18,6 @@
     width: 15%; 
     margin-left: 15px; 
     text-align: center;
-}
+} */
 
-/* Calendar Styling on the Events page*/
-.calendarStyles{
-    display:inline-block; 
-    text-align: center; 
-    width: 1800px; 
-    height: 1800px;}
-iframe {
-    
-    margin-left: 20%;
-    width: 60%;
-    height: 600px;
-    border-block-end-style: ridge;  
-    border-block-start-style: ridge;
-    border-block-start-color: aqua;
-    border-block-end-color: aqua;
-    border-block-end-width: 5px;
-}
+
