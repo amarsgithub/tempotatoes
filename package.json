@@ -5,8 +5,7 @@
   "description": "Open git bash on the parent folder and do the following commands:",
   "scripts": {
     "client-install": "npm install --prefix client",
-    "start": "concurrently \"cd client && npm start\" \"cd backend && nodemon server.js\"",
-    "dev": "concurrently \"cd backend && node server.js\" \"cd client && npm start\"",
+    "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\"",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
@@ -15,19 +14,18 @@
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
-    "concurrently": "^4.1.0",
     "cors": "^2.8.5",
-    "cross-env": "^5.2.0",
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
     "mongoose": "^5.5.2",
     "morgan": "^1.9.1",
-    "nodemon": "^1.18.10",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
-    "tachyons": "^4.11.1"
+    "tachyons": "^4.11.1",
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.10"
   },
   "devDependencies": {},
   "eslintConfig": {
@@ -46,5 +44,5 @@
   "bugs": {
     "url": "https://github.com/amarsgithub/tempotatoes/issues"
   },
-  "homepage": "https://tempotatoes.herokuapp.com/"
+  "homepage": "https://github.com/amarsgithub/tempotatoes#readme"
 }
