@@ -29,3 +29,16 @@
     width: 100%;
     background-color:#FFFFFF; 
 }
+.headerProfile{
+    float: left;
+    margin-left: 30%;
+    margin-top: 1.5em;
+    width: 120px;
+    bottom: 3%;
+    text-emphasis: bold;
+    text-emphasis-color: blue;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
