@@ -31,9 +31,9 @@
 }
 .headerProfile{
     float: left;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: 1.5em;
-    width: 120px;
+    /* width: 120px; */
     bottom: 3%;
     text-emphasis: bold;
     text-emphasis-color: blue;
@@ -41,4 +41,19 @@
     font-style: italic;
     text-align: center;
     color: white;
+}
+.profilePhoto{
+    float:left;
+}
+.profileInfo{
+    margin-top: 1em;
+    color: black;
+    font-size: 14px;
+    float:left;
+    text-align:left;
+}
+.profileEmail{
+    font-style: italic;
+    font-size: 12px;
+    text-align: left;
 }

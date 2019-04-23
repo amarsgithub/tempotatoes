@@ -15,6 +15,7 @@ h1{
     float: left;
     background-color: #4C89B6;
     max-width: 15%;
+    border-radius: 15px;
     /* TODO: figure out how to widen out  */
 }
 .calendarStyles{

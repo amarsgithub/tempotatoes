@@ -14,10 +14,10 @@ const HeaderBox = ( ) => {
                     {/* NOTE: THE LACK OF STYLING IS INTENTIONAL.  The bootstrap defaults were getting in the way of
                     making a good custom site */}
 
-                    <div className=' headerItem'>
+                    <div className='bg-orange dib br3 pa3 ma2 bw2 shadow-5 headerItem'>
                         <Link className = 'headerLink' to="/Home">Home</Link>
                     </div>
-                    <div className=' headerItem'>
+                    <div className='bg-orange dib br3 pa3 ma2 bw2 shadow-5 headerItem'>
                         <Link className = 'headerLink' to="/Test">Test</Link>
                     </div>
                     <div className='bg-orange dib br3 pa3 ma2 bw2 shadow-5 headerItem'>
@@ -27,7 +27,8 @@ const HeaderBox = ( ) => {
                     <div className = "headerProfile">
                         <div className = "profileInfo">
                         {/* TODO: Query the DB for the user's name and email */}
-                        
+                        <h3>Name of User</h3>
+                        <h3 className='profileEmail'>Email of User</h3>
                         </div>
                         <div className = "profilePhoto">
                         {/* TODO: Query the DB for the users profile 
