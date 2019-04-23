@@ -1,6 +1,7 @@
 import React from 'react';
 import ProfileCard from './ProfileCard.js';
 import {Link} from "react-router-dom";
+import './CardBox.css'
 
 
 // This component creates a list of the ProfileCard's using information from userAccounts

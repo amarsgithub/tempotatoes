@@ -1,0 +1,44 @@
+.headerLogo{
+    margin-left:2%;  
+    float: left; 
+}
+.headerBar {
+     display: inline-block;
+     width: 100%;
+}
+.headerItem {
+    float: left;
+    background-color: #F7A16C;
+    margin-left: 3%;
+    margin-top: 4.3em;
+    width: 120px;
+    bottom: 3%;
+    text-emphasis: bold;
+    text-emphasis-color: blue;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+.headerLink{
+    text-emphasis: bold;
+    text-align: center;
+    text-emphasis-color: blue;
+}
+.headerBackground{
+    width: 100%;
+    background-color:#FFFFFF; 
+}
+.headerProfile{
+    float: left;
+    margin-left: 30%;
+    margin-top: 1.5em;
+    width: 120px;
+    bottom: 3%;
+    text-emphasis: bold;
+    text-emphasis-color: blue;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
