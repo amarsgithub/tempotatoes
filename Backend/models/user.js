@@ -7,7 +7,7 @@ const UserSchema = new Schema({
         lastName: String,
         fullName: String,
         active: String,
-        email: {type: String, required: true, unique: true, dropDups: true},
+        email: {type: String, required: false, unique: true},
         major1: String,
         major2: String,
         minor1: String,
@@ -25,6 +25,8 @@ const UserSchema = new Schema({
         question3: String,
         question4: String,
         question5: String,
+        username: String,
+        password: String,
         points: Number
     }
 });

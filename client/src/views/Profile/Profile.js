@@ -40,7 +40,8 @@ class Profile extends Component {
         return (
             <div className='profile'>
                     <BiographyCard 
-                               photo = {this.state.user.picture}
+                               name={this.state.user.fullName}
+                               picture = {this.state.user.picture}
                                key={this.state.user.key}
                                id={this.state.user.id}
                                points = {this.state.user.points}
